@@ -1,0 +1,26 @@
+{
+	"name":"tencentyun/cos",
+	"type":"yii2-extension",
+	"description":"yii2上传文件到腾讯云对象存储组件",
+	"keywords":["yii2","tencentyun","cos"],
+	"license":"MIT",
+	"support":{
+		"issues":"https://github.com/q490880/yii2-qcloud-cos/issues",
+		"form":"http://blog.csdn.net/q490880",
+		"source":"https://github.com/q490880/yii2-qcloud-cos",
+	},
+    "authors": [
+		{
+			"name": "XuPengLiang",
+			"email": "11468804@qq.com"
+		}
+	],
+	"require":{
+		"yiisoft/yii2":"*"
+	},
+	"autoload":{
+		"psr-4":{
+			"yii\\cos\\":"src/"
+		}
+	}
+}
