@@ -1,5 +1,5 @@
 {
-	"name":"tencentyun/cos",
+	"name":"xplqcloud/cos",
 	"type":"yii2-extension",
 	"description":"yii2上传文件到腾讯云对象存储组件",
 	"keywords":["yii2","tencentyun","cos"],
