@@ -11,7 +11,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require xplqcloud/cos
+php composer.phar require xplqcloud/cos
 ```
 
 or add
