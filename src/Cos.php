@@ -1,6 +1,5 @@
 <?php
-namespace tencentyun\cos;
-use QCloud\Cos\Api;
+namespace xplqcloud\cos;
 use yii\base\Component;
 use yii\base\InvalidConfigException;
 
@@ -15,7 +14,7 @@ class Cos extends Component {
     public $insertOnly;
     public function init()
     {
-        \Yii::setAlias('@QCloud/Cos','@vendor/qcloud/cos');
+        //\Yii::setAlias('@QCloud/Cos','@vendor/qcloud/cos');
         parent::init();
         if (!isset($this->app_id)) {
             throw new InvalidConfigException('请先配置app_id');

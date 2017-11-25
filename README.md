@@ -33,7 +33,7 @@ return [
     //....
     'components' => [
         'cos'=>[
-            'class'=>'xplqcloud\cos\Cos',
+            'class'=>'yii\cos\Cos',
             'app_id' => 'app_id',
             'secret_id' => 'secret_id',
             'secret_key' => 'secret_key',
