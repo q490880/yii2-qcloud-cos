@@ -49,13 +49,15 @@ return [
 
 [操作说明]
 --------------------
+```
 //上传文件
-\Yii::$app->cos->upload($src, $dst)
+\Yii::$app->cos->upload($src, $dst);
 //删除文件
-\Yii::$app->cos->delFile($dst)
+\Yii::$app->cos->delFile($dst);
 //创建文件夹
-\Yii::$app->cos->delFolder($folder)
+\Yii::$app->cos->delFolder($folder);
 //删除文件夹
-\Yii::$app->cos->delFile($folder)
+\Yii::$app->cos->delFile($folder);
 //获取文件夹列表
-\Yii::$app->cos->listFolder($folder)
+\Yii::$app->cos->listFolder($folder);
+```
